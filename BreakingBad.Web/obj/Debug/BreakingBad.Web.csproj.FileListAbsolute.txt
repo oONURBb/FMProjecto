@@ -1,0 +1,6 @@
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\bin\BreakingBad.Web.dll.config
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\bin\BreakingBad.Web.dll
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\bin\BreakingBad.Web.pdb
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\obj\Debug\BreakingBad.Web.csprojResolveAssemblyReference.cache
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\obj\Debug\BreakingBad.Web.dll
+C:\Users\bruno\Desktop\Escola\FM\BreakingBad\BreakingBad.Web\obj\Debug\BreakingBad.Web.pdb
