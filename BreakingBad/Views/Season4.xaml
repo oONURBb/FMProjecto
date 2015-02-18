@@ -1,0 +1,318 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Microsoft.Internal.Pivot.Controls;assembly=System.Windows.Controls.Pivot" x:Class="BreakingBad.Views.Season4"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.7"/>
+            </Grid.Background>
+            <Image Grid.Column="1" Margin="10" Source="/Images/Season4.jpg" Grid.RowSpan="2"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="0*"/>
+                    <RowDefinition Height="232*"/>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap" FontSize="32" FontWeight="Bold" Foreground="White" TextAlignment="Center">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </TextBlock.Effect>
+                	<Run Text="Season "/>
+                	<Run Text="4"/>
+                </TextBlock>
+                <RichTextBox Margin="10,9,10,10" Grid.Row="3" FontSize="13.333" IsReadOnly="True" Foreground="White">
+                    <RichTextBox.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </RichTextBox.Effect>
+                    <RichTextBox.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.8"/>
+                    </RichTextBox.Background>
+                	<Paragraph>
+                		<Run Text="In a flashback, Gale Boetticher takes notes on the construction of the new superlab. He praises the blue meth sample Gustavo Fring gave him to the point where he talks himself out of a job, saying that the person who cooked the sample deserves it better; Gale just talked Gus into hiring Walter White."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Back to the present, Jesse Pinkman shoots Gale at the doorstep of his apartment and flees. Victor arrives right after and finds a shell-shocked Jesse in the parking lot and returns him to the superlab at gunpoint. Victor admits to Mike Ehrmantraut that Gale's neighbors saw him at the scene, but insists it's not a problem."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt and Jesse wait, helplessly, for Gus to arrive. When he does, Walt tries to talk his way out of what he's sure must be a death sentence. Gus seems unmoved... but then slices Victor's throat with a box cutter, killing him. Then he coldly orders Walt and Jesse back to work."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Later, at Gale's apartment, police process evidence that includes Gale's lab notes (&quot;Box Cutter&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Free, but feeling the looming threat of Gus, Walt purchases a gun for protection. Reeling from Gale's murder, Jesse calls Brandon &quot;Badger&quot; Mayhew and Skinny Pete to throw a raging party at his house to numb himself. Meanwhile, Skyler White tries to negotiate the purchase of the car wash Walt once worked at from Bogdan Wolynetz, who refuses because of a grudge against Walt."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt urges Mike to help him kill Gus, but Mike lays him out in response: no go. Skyler begs Walt to seek police protection; Walt refuses (&quot;Thirty-Eight Snub&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank Schrader, frustrated by his slow recovery, snipes at Marie Schrader, who soothes herself by stealing knickknacks at open houses. After she's caught, Hank's detective friend, Tim Roberts, resolves the matter. Tim then, based on Hank's expertise, asks for his help in solving Gale's murder, leaving him a copy of the lab notes to examine, which eventually he does (&quot;Open House&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Skyler manipulates Bogdan into selling the car wash, then invents a gambling-addiction story for she and Walt to present to their family in order to explain their ability to purchase it."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt discovers that Hank is looking into Gale's murder, and that he suspects Gale may be &quot;Heisenberg.&quot; A strange note to a person named &quot;W.W.&quot; is in the first page of the notebook with the lab notes, Hank jokingly accuses Walt of being the person, and Walt sarcastically responds to the joke. Hank also discloses that Gale's lab notes contain the blue meth formula, and that fingerprints were found at the murder scene."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse shrugs off Walt's news about the fingerprints and barely reacts when a partygoer steals his money. His house has become less a party than a crack house; he's totally numb. Mike reports Jesse's reckless behavior to Gus and the next day drives Jesse into the desert (&quot;Bullet Points&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt, frantic over Jesse's disappearance, storms into Los Pollos Hermanos to confront Gus, who's not there. Mike orders Walt to cook alone. Jesse complains of boredom as Mike retrieves stashes of cash at various blind drops. He then ends up foiling what looks like an attempted robbery. Jesse is unaware that Gus orchestrated the incident to see if Jesse is worth of working in their operation."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank withdraws from consulting on Gale's case citing his feeling of closure. At dinner, Walt, tipsy, can't stand hearing Hank give Gale all the credit. He speculates that Heisenberg remains at-large, reigniting Hank's interest (&quot;Shotgun&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Juárez Cartel gunmen hijack a Los Pollos truck and leave behind a message: &quot;Ready to talk?&quot;"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Skyler theorizes that Walt fears for his life and secretly wants to get caught. &quot;I am not in danger,&quot; Walt snarls. &quot;I am the danger.&quot; Scared for her family, she travels out of town to the Four Corners monument to try to decide whether to run or stay; reluctantly she decides to stay in New Mexico (&quot;Cornered&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt talks to Saul Goodman about his options. Saul tells him if he needs to get out, he knows a guy who can &quot;disappear&quot; him and his family. Walt asks about hiring a hit man to kill Gus, but Saul points out that Jesse already has access. Walt convinces Jesse that Gus must die and prepares ricin to poison him."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse returns to his NA meeting and confesses to killing a &quot;problem dog&quot; -- Gale. When the Group Leader refuses to judge him, he taunts him saying he'd only gone to meetings to sell the members meth."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="At the factory farm, Jesse passes up an opportunity to murder Gus. Gus has other problems, facing a cartel representative named Gaff. Gus offers $50 million to cease business relations. Gaff rejects it: &quot;this is not a negotiation,&quot; he says."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank presents a startling hypothesis to DEA colleague Steven Gomez and ASAC George Merkert: Gus Fring, community leader, is a major meth distributor. They balk at the evidence Hank presents until he drops the bomb: Gus's fingerprints were found in Gale's apartment (&quot;Problem Dog&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="A quick flashback reveals that in the night where the Cousins died, Gus visited Hector &quot;Tio&quot; Salamanca at the nursing home, Tio refuses to look at Gus' face. Gus reveals to him that he orchestrated the death of the Cousins, as well as the death of Juan Bolsa, leaving Tio with no allies."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="In the present, Gus deftly handles joint questioning by the Albuquerque police and the DEA about Gale, though Hank unnerves Gus by asking about his Chilean background. The DEA buys Gus' story and lets him off clean. Hank, however, isn't satisfied."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank asks Walt to drive him to Los Pollos Hermanos and reiterates his theory about Gus before coaxing Walt to plant a GPS on Gus's car. Walt anxiously admits Hank's plan to Gus, who seems unfazed and tells him to go through with it."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Gus removes the GPS before visiting Hector &quot;Tio&quot; Salamanca at a nursing home again. While there, Gus's memory drifts back to another flashback, at Mexico in 1989, when Gus and Max Arciniega, his best friend and first business partner in the meth trade, pitched their product at the hacienda of cartel boss Don Eladio Vuente. Don Eladio, infuriated by their presumption, orders his henchman, Tio, to kill Max at cold blood and forces Gus to watch. Tio later mocks Gus, telling him to stick with the fast-food business. Back to the present, Gus approaches Tio and orders him to look at him in the eyes, Tio refuses once again, Gus smiles and walks away: &quot;Maybe another time,&quot; he mocks (&quot;Hermanos&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt warns Mike that Hank has discovered the factory farm and plans to stake it out. Jesse and some of Mike's henchmen remove evidence of meth distribution from the location before Hank can get there, but afterward a cartel sniper (Gaff) opens fire on them and shoots one of Mike's men. Gus strides out into the sniper fire, defiant, but that night, calls the cartel: he'll give them what they want."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="The IRS audits Beneke Fabricators. As Ted Beneke's former bookkeeper, Skyler, fears that her finances could come under scrutiny, so she plays dumb and convinces the agent that Ted's mistakes are all innocent. All Ted needs to do is pay back taxes and penalties; unfortunately, he's broke. Out of the frying pan..."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Gus asks Jesse if he can cook Walt's formula. Jesse accuses Gus of planning to murder Walt. Gus replies that he needs Jesse's help to prevent war with the cartel."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse calls Walt to come to his house and begs him to coach him on using his meth formula for the cartel chemists. Walt accuses Jesse of switching his allegiance and never intending to kill Gus. Walt then reveals that he's been keeping tabs on Jesse, and tells him he hopes Jesse ends up dead in the Mexican desert. Jesse explodes and they have a knock-down drag-out fight. In the end, Jesse kicks Walt out and tells him never to come back (&quot;Bug&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Gus, Jesse and Mike travel to Mexico. They arrive at the cartel's superlab and Jesse faces down the lead chemist and cooks a high-quality batch. Back in Albuquerque, Skyler -- through Saul -- provides Ted money to cover his IRS debt, but Ted still refuses to settle his debt."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walter White Jr. received a car as birthday gift from Walt and Skyler, but his father was not there when he received his gift, so Jr. decides to drive to Walt's apartment. Jr. finds Walt broken and scarred from the beating he took from Jesse, Walt apologizes to Jr. about every single bad thing he has done during the past year. After cleaning himself up, Walt tells Jr. that he doesn't want him to remember his father the way he was, but Jr. responds that Walt is acting weird since he found out about the cancer, at least this time he was being real."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Meanwhile in Mexico, the cartel reunites everyone at Don Eladio's mansion (the same place where Max was murdered), Gus and Don Eladio meet each other for the first time since their encounter in 1989. Gus offers a gift of tequila laced with poison. Don Eladio and his entourage drink it and collapse into death. Jesse helps Mike evacuate Gus, who drank the tequila to fool Don Eladio and, despite inducing vomiting, is feeling the effects of the poison. In the escape, Mike is shot and Jesse kills the shooter (&quot;Salud&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Gus recovers at a state-of-the-art, though makeshift, medical facility that he set up in advance of their trip. Since Mike is in no conditions of travelling because of his gun wound, he has to stay behind and recover as Gus and Jesse continue their travel. Back in Albuquerque, Gus gloats to Tio that the cartel is destroyed and that Jesse shot Tio's grandson, thus ending the Salamanca family line. He finally has his vengeance for Max's death."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank asks Walt to drive him to the industrial laundry, he believes that the superlab from Gale's notebook is located there. Fearing exposure, Walt deliberately causes an accident, laying Hank up for awhile. He's bought some time, but Hank's not deterred."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Saul sends his men to force Ted to pay his IRS tab. Trying to escape, Ted cracks his head on a kitchen counter, badly injuring him. While cooking in the superlab, Walt notices that someone already cooked a batch, meaning that Jesse already returned to Albuquerque, but Walt wasn't informed."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt goes to Jesse's house, knowing that now that Gus found someone able to cook the Blue Sky Meth, Gus is going to kill him. Jesse's ex-girlfriend, Andrea Cantillo and her son Brock Cantillo are there when Walt comes to beg for help. Jesse rejects him, saying that the last time he asked for Walt's help, Walt hoped for him to end up dead in the mexican desert."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt is kicked out of Jesse's house, and right after, Gus's operative Tyrus Kitt tasers Walt and transports him to the desert, where Gus fires him. After Walt mocks Gus's failed attempts to turn Jesse against him, Gus threatens Walt's family: he's going to kill Hank, and if Walt interferes, he and his entire family will die. With no value left to Gus, Walt thinks he's a dead man."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt rushes to Saul's to get in touch with the &quot;disappearer.&quot; Saul agrees to warn the DEA about the danger to Hank. Walt then learns that Skyler gave Ted most of their money to pay his taxes, leaving them without enough to pay the &quot;disappearer.&quot; With Hank alerted, Gus will now know Walt talked, and set his sights on killing Walt and his family (&quot;Crawl Space&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="The DEA provides protection for Hank, Marie, and Walt's family at the Schrader home though Walt refuses to stay there himself. Walt heads off to figure out what to do. He spins a gun in his back yard, possibly thinking of killing himself. In the end, he gets an idea and heads out."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Brock is hospitalized for a flulike ailment. After discovering his ricin cigarette (that was intended to be used on Gus) is missing, Jesse tells Andrea to alert the doctors about a possible poisoning, and goes to confront Walt. He accuses Walt at gunpoint of poisoning Brock to get his revenge, but Walt convinces Jesse that Gus framed him: he claims Gus is using Jesse as the perfect assassin to kill Walt. Walt and Jesse conspire a plan to eliminate Gus."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="In the next day, Jesse refuses to leave the hospital where Brock is, Gus is forced to go there and assure Jesse that everything is fine. Meanwhile, Walt planted a bomb on Gus' car. When Gus is leaving the hospital, he senses something amiss and abandons his car at the parking structure; Walt's masterplan to eliminate Gus failed (&quot;End Times&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt and Jesse need to reformulate their plan to eliminate Gus until the end of the day, but two detectives suspicious about Jesse's ricin theory drag him away for questioning. Saul visits Jesse at the station and passes Walt a message from Jesse about Gus's visits to Tio. Walt deduces that the men are enemies and persuades Tio to entrap Gus."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="At home under protection of the DEA, Hank is still suspicious about the industrial laundry, when his partner, Gomez, arrives and informs him that an informant with highly important information about the Blue Sky Meth wants to talk to Hank personally at the DEA headquarters. Hank decides to check it out; the informant is Tio, but instead of giving the information, he merely insults and taunts Hank."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Tyrus, who is keeping track of Tio, notices that he visited the DEA, meaning that he ratted out about something. Gus is informed, and claims that he is going to eliminate Tio himself; the time for the final act of his plan to avenge Max is finally here."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="The police release Jesse after Brock tests negative for ricin. Outside the station, two men kidnap Jesse and force him to cook at the super-lab again, handcuffed and with a gun virtually to his head."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Gus visits Tio for the last time at the nursing home, he calls Tio a &quot;crippled rata&quot; for talking to the DEA. As Gus prepares to administer a fatal injection, Tio looks Gus in the eyes for the first time in many years. Gus is shocked by this unexpected act, right after, Tio detonates a bomb Walt installed under his wheelchair. Gus, Tio, and Tyrus are blown to pieces."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="At the superlab, Walt arrives and kills Jesse's captors. He and Jesse torch the lab, leaving no more evidences behind. Later, Jesse tells Walt that the common plant Lily of the Valley poisoned Brock, not ricin. &quot;But still, he had to go, right?&quot; asks Jesse of Gus. &quot;You're damn right,&quot; Walt replies. They shake hands, and Jesse returns to the hospital to be with Brock and Andrea."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt calls Skyler; she's seen the news about the explosion and wants to know what happened. &quot;I won,&quot; he says, simply. Walt drives out of the parking structure past Gus' deserted car with a smirk in his face."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="In the final shot of the season, a flowering plant sits poolside at Walt's house. The camera closes in and the tag reveals its name: Lily of the Valley (&quot;Face Off&quot;). "/>
+                	</Paragraph>
+                </RichTextBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

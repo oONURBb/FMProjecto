@@ -1,0 +1,29 @@
+﻿<navigation:Page x:Class="BreakingBad.Home" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480"
+    Title="Home"
+    Style="{StaticResource PageStyle}">
+
+    <Grid x:Name="LayoutRoot">
+        <Rectangle MouseLeftButtonDown="Rectangle_MouseLeftButtonDown" Cursor="Hand" Fill="#00000000" Margin="-725,-486,-535,-534"/>
+        <Grid x:Name="ContentGrid" Margin="70,60,70,26" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <CompositeTransform ScaleY="-1" ScaleX="-1"/>
+            </Grid.RenderTransform>
+            <MediaElement x:Name="Intro" Margin="0" Source="/Videos/bbInicio.mp4" MouseLeftButtonDown="Intro_MouseLeftButtonDown" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Cursor="Hand" CurrentStateChanged="Intro_CurrentStateChanged" MediaEnded="Intro_MediaEnded" Position="0:0:50" MediaOpened="Intro_MediaOpened">
+                <MediaElement.RenderTransform>
+                    <CompositeTransform Rotation="-539.947"/>
+                </MediaElement.RenderTransform>
+            </MediaElement>
+            <Image x:Name="ImgPause" Height="100" Width="100" Source="/Images/play.png" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="179.81"/>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </Grid>
+
+</navigation:Page>

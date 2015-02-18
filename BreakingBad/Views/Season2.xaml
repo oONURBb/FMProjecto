@@ -1,0 +1,180 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Microsoft.Internal.Pivot.Controls;assembly=System.Windows.Controls.Pivot" x:Class="BreakingBad.Views.Season2"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.7"/>
+            </Grid.Background>
+            <Image Grid.Column="1" Margin="10" Source="/Images/Season2.jpg" Grid.RowSpan="2"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="0*"/>
+                    <RowDefinition Height="232*"/>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap" FontSize="32" FontWeight="Bold" Foreground="White" TextAlignment="Center">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </TextBlock.Effect>
+					<Run Text="Season "/>
+					<Run Text="2"/>
+                </TextBlock>
+                <RichTextBox Margin="10,9,10,10" Grid.Row="3" FontSize="13.333" IsReadOnly="True" Foreground="White">
+                    <RichTextBox.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </RichTextBox.Effect>
+                    <RichTextBox.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.8"/>
+                    </RichTextBox.Background>
+                    <Paragraph>
+                        <Run Text="In an abandoned auto junkyard, Tuco Salamanca buys meth from Jesse Pinkman and Walter White, and then kills his henchman No-Doze for speaking out of turn. Jesse purchases a gun to protect himself from Tuco, but Walt proposes they kill Tuco with  poison instead. Hank Schrader sends Walt a cell phone photo of No-Doze and Gonzo, Tuco's other associate, dead in the junkyard. Shortly afterwards, Tuco abducts Walt and Jesse at gunpoint (&quot;Seven Thirty-Seven&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Hank briefs his DEA team about a raid on Tuco's headquarters, and then takes a leave of absence to search for Walt. Marie Schrader tells Skyler White that Walt might have a second cell phone and suggests Hank visit Jesse's mother. Mrs. Pinkman tells Hank about Jesse's low-rider car, which Hank tracks to Tuco's place using LoJack."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Trapped in a desert hideaway, Walt and Jesse try to slip Tuco the poison, but his ailing uncle, Tio Salamanca, tips Tuco off. Jesse and Walt escape and are hiding nearby when Hank approaches Tuco and kills him in a shootout (&quot;Grilled&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="To cover for their disappearance, Walt fakes amnesia and is hospitalized while Jesse removes meth evidence from his house, persuades Badger's cousin, Clovis, to tow away the RV, and gets himself arrested. Hank, interrogating Jesse, accuses him of working with Tuco, but releases Jesse when Tio refuses to ID him. Walt returns home where Skyler quizzes him about the second phone (&quot;Bit by a Dead Bee&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="A broke Jesse asks Walt for half their remaining money, but Walt refuses. Jesse's parents, aware of the meth lab, force him to vacate his house. He breaks into Clovis's repair yard and sleeps in the RV, stealing it back after Clovis threatens to sell the cooking supplies. Walt eventually shares some of his remaining cash with Jesse. Meanwhile, a suspicious Skyler keeps her distance from Walt and smokes to relieve tension (&quot;Down&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Walt confronts Skyler about the cigarettes. &quot;This is so unlike you,&quot; he says. &quot;How would you know?&quot; she retorts. Jesse rents a duplex apartment from Jane Margolis (who lives next door), and assembles a meth-dealing crew with his longtime friends, Badger, Skinny Pete and Combo. All goes well until a junkie couple robs Skinny Pete."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Meanwhile, at the DEA headquarters, Hank informs his boss about the mysterious blue meth being sold on the streets, and they begin an investigation about the supposed dealer who is selling the product, a man named &quot;Heisenberg.&quot; Walt visits Jesse and demands retribution for their dealer being robbed (&quot;Breakage&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Jesse, lying in wait for the junkies, discovers a small boy at their house. The junkies return some meth and promise Jesse the proceeds of a stolen ATM, but the woman knocks Jesse out. After Spooge, the male junkie, taunts his woman, she crushes his head with the ATM. Jesse grabs some cash, calls 911 and hurries the boy out of the house."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Skyler, meanwhile, thanks a bewildered Gretchen Schwartz for funding Walt's chemo; Walt begs Gretchen not to admit the truth. Gretchen calls Skyler to say they're cutting the money off, so Walt tells Skyler that Elliott Schwartz is broke (&quot;Peekaboo&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="The news of Spooge's murder make people on the streets believe that Jesse was the one who killed Spooge with the ATM machine. Walt uses this as an advantage to expand their territory, now that people actually fear crossing &quot;Heisenberg's&quot; path."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Skyler returns to Beneke Fabricators, her former employer, where her boss Ted Beneke once flirted with her. Skyler assures Marie the incident won't recur, but the two later share an intimate moment when Skyler opens up about Walt's cancer."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Hank gets promoted to work part-time in the DEA's El Paso office, but suffers anxiety attacks over his encounter with Tuco. His anxiety hits new highs during a stakeout in Mexico when a tortoise bearing the head of an informant explodes, maiming several DEA agents. Walt eventually councils Hank to face his fears, and Hank returns to work. Back at the duplex, Jesse and Jane develop a romance (&quot;Negro y Azul&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="After an undercover cop busts Badger, Walt and Jesse hire a shady attorney named Saul Goodman. Hank tells Badger he'll go free if he identifies &quot;Heisenberg,&quot; so Saul arranges for an ex-con to take the fall for Walt."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Jesse suggests he and Jane share a joint, but she tells him she's been sober for 18 months. Jane later treats Jesse brusquely in front of Donald Margolis, her dad, causing Jesse to feel demoralized until she slips him a sketch of a superheroine named &quot;Apology Girl&quot; (&quot;Better Call Saul&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Walt, awaiting test results he's certain will be discouraging, tricks Jesse into participating in a meth-cooking marathon. It's successful, but several mishaps leave the RV disabled and the two men stranded without water in the desert heat. Walt cobbles together a working battery and they return to Albuquerque, where Walt is surprised to learn his cancer is in remission (&quot;4 Days Out&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Skyler hosts a party to celebrate Walt's good news. Hank and Walt nearly come to blows after Walt pours Walter Jr. tequila shots. After apologizing for his behavior at the party, Walt consumes himself with home improvements (&quot;Over&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Combo is shot and killed. Spooked by Combo's death, Skinny Pete quits dealing and Jesse gets heavy into drugs with Jane, who introduces him to heroin."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Later, Saul offers to put Walt and Jesse in touch with a low-profile narcotics distributor who will buy their product in bulk, but this person will never meet with Walt and Jesse if he doesn't think he can trust them. Due to Jesse being under effects of heroin, he scares the distributor off by arriving high for a meeting. Walt persists, and Gustavo Fring finally reveals himself to Walt, giving him an hour to deliver his meth."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Skyler meanwhile discovers accounting irregularities at Beneke. Ted admits to fraud, but Skyler makes the choice to stay anyway — just before going into labor. Walt, rushing to retrieve the meth from his partner, finds Jesse passed-out at his apartment after using heroin with Jane once again. Walt is forced to steal the meth from Jesse to sell it himself, being forced to ignore Skyler's calls and missing his daughter's birth (&quot;Mandala&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Jesse calls Walt, freaked that their meth has been stolen. When Jesse figures out the truth, Walt says he'll hold Jesse's $480,000 share until he's clean. Saul figures out a way to launder Walt's take through SaveWalterWhite.com, the website Walter White Jr. establishes to raise money for his dad's surgery."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Jane, who has promised her father Donald she'll enter rehab the next day, blackmails Walt for Jesse's money. Walt turns it over, but a coincidental bar chat with Donald inspires him to return to Jesse's apartment, where he watches as a drugged-up Jane chokes to death on her own vomit (&quot;Phoenix&quot;)."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="The next morning, Jesse calls Walt, who arranges for an operative to remove drug evidence from Jesse's apartment. &quot;I killed her,&quot; Jesse later sobs. Walt checks Jesse into rehab."/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Before undergoing surgery, Walt unwittingly reveals to Skyler that he has a second phone. His surgery is successful, but a few weeks later Skyler leaves him. Donald returns to work as an air-traffic controller. Distracted by thoughts of his daughter, he inadvertently causes two planes to collide in the sky over Walt's house (&quot;ABQ&quot;). "/>
+                    </Paragraph>
+                </RichTextBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

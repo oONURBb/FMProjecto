@@ -1,0 +1,324 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Microsoft.Internal.Pivot.Controls;assembly=System.Windows.Controls.Pivot" x:Class="BreakingBad.Views.Season5"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.7"/>
+            </Grid.Background>
+            <Image Grid.Column="1" Margin="10" Source="/Images/Season5.jpg" Grid.RowSpan="2"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="0*"/>
+                    <RowDefinition Height="232*"/>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap" FontSize="32" FontWeight="Bold" Foreground="White" TextAlignment="Center">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </TextBlock.Effect>
+                	<Run Text="Season "/>
+                	<Run Text="5"/>
+                </TextBlock>
+                <RichTextBox Margin="10,9,10,10" Grid.Row="3" FontSize="13.333" IsReadOnly="True" Foreground="White">
+                    <RichTextBox.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </RichTextBox.Effect>
+                    <RichTextBox.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.8"/>
+                    </RichTextBox.Background>
+                	<Paragraph>
+                		<Run Text="One year into the future, Walter White sits alone at a restaurant with his head full of hair and beard grown, he meets with Lawson, his former gun dealer, who gives him a key to a car in exchange of some money. Walt takes a pill and leaves the restaurant, approaching the car and revealing that he just bought a M60 machine gun that's hidden in the car's trunk."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Back to the present, Walt returns home after finally killing Gustavo Fring, he disposes of anything linking him to his successful plot against Gus and then hides the ricin he stole from Jesse Pinkman inside his bedroom, but the laptop containing security footage of Walt is held by the police. Walt calls Jesse and Mike Ehrmantraut in a mission to help him destroy the laptop using an industrial electromagnet, but in the process of doing so, the police end up discovering a secret bank account held by Gus that was used to pay his employees. Back home, Walt tries to forgive Skyler White, but the damage has already been done: She's afraid of him. (&quot;Live Free or Die&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Because Skyler used the money Walt earned from Gus' operation to pay off Ted Beneke's IRS debt, Walt believes he has no choice but to start cooking meth again to earn back the money he lost. Walt and Jesse try to convince Mike to join them, but he refuses, stating that Walt is a &quot;time-bomb.&quot; Meanwhile, the police discovered that a Madrigal Electromotive GmbH executive, Peter Schuler, was working with Gus in the meth business and was one of the many people being paid by the discovered bank account. But Peter commits suicide before the police is able to reach him."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Worried about this situation, Lydia Rodarte-Quayle, another one of Gus' contact working for Madrigal, tries to contact Mike. She offers to pay him to eliminate the eleven men from the bank account before the police reach them too, but Mike refuses. Lydia then tries to get Mike killed, but fails. Mike decides to use Lydia to help Walt and Jesse in their newly founded Drug Empire. (&quot;Madrigal&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt, Jesse and Mike begin a three-way partnership to distribute meth again, while not fully trusting Lydia. Their plans for meth manufacturing are almost not succesful because Saul Goodman cannot locate satisfactory sites, save for one — a pest control company known as Vamonos Pest Control. Walt and Jesse use the business's fumigation tent on random houses as a mobile laboratory. Skyler realizes that Walter is not exactly free from his meth-making past and begins to fear for her and her children's lives because of the danger involved. Meanwhile, Walt is worried that Jesse forming a new family with Andrea Cantillo will intervene in their new operation, so he manipulates Jesse into breaking up with her. Walt and Mike get into a heated argument when Walt finds out that Mike is planning to use nearly half of their money to pay off the nine employees from the bank account that are now all in prison. (&quot;Hazard Pay&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank Schrader is promoted to become the new ASAC for the DEA in Albuquerque for his work in discovering Gus' drug empire. He decides to start a new investigation on the nine employees imprisoned, knowing that there are still more people connected to Gus. The Schraders later reunite with the Whites for Walt's birthday party, where Skyler tries to commit suicide by walking into the pool. After being saved, she asks Marie Schrader to take care of her children. After the Schrader's leave, Skyler reveals to Walter that, with no other options, she is just patiently waiting for his cancer to come back."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Meanwhile, the methylamine flow is disrupted because Lydia found a GPS tracker sticked to one of the barrels, forcing Walter, Jesse, and Mike to think in another option to keep the meth production. Walt decides that the methylamine will keep flowing no matter what: They are just beginning. (&quot;Fifty-One&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Mike kidnaps Lydia, planning to kill her if she doesn't reveal that the GPS in the barrel was her plan to be set free from the operation, but they end up discovering that she was not lying, the DEA planted the tracker. Lydia offers Walt another option to obtain methylamine: to rob a train carrying a large shipment. The heist is nearly compromised when a child spots them, but he is shot by a new hire for the heist, Todd Alquist. (&quot;Dead Freight&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="As the DEA begins to track Mike, and with the recent death of the child, both Jesse and Mike design a permanent exit for themselves from the business. They plan to sell their methylamine for $5 million each to Declan, a major regional meth producer and distributor. Walt derails Jesse and Mike's scheme when he refuses to sell his share of the methylamine, forcing Mike to lock up Walt until the deal is done. Walt is able to escape and takes the methylamine with him, he later gives Mike and Jesse another option to earn money with the production like he wants and at the same time Mike and Jesse can leave the business, &quot;everybody wins.&quot; (&quot;Buyout&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt uses his Heisenberg persona's infamy to cut a distribution deal with Declan and negotiate the $5 million severance for Mike. Jesse is determined to leave the business, irrespective of his financial cut, so Walter enlists Todd as his assistant cook. After the DEA closes in on Mike, he decides to leave for good."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt meets with Mike in the desert so they can set things up before Mike departs New Mexico. Walt says that there is one last thing that he requires from Mike: the name of Gus' nine employees that might talk in prison, but Mike refuses to give them, blaming Walt for all the bad things that hapenned until now. Walter impulsively shoots Mike dead after a confrontation, later regreting the action when he remembers that Lydia has the names. (&quot;Say My Name&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="After getting rid of Mike's body, Walt manages to get the names from Lydia and arranges for the men to be killed by associates of Todd's uncle, Jack Welker, leader of a white supremacist gang."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="In exchange for her safety, Lydia arranges for Walt's product to be shipped to the Czech Republic using Madrigal's more obscure branches. Over the next few months, this nets Walt an extraordinary amount of money - so much that, after some pleading from Skyler, he finally decides to retire, dropping off $5 million he owed to Jesse at his door. Months later, the White family is happily living under one roof again."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="All seems to be going well until one day during a barbecue with the Whites and the Schraders, Hank excuses himself to the toilet and while searching for something to keep himself distracted, he discovers a book of Walt Whitman poetry dedicated to &quot;WW&quot; by &quot;GB&quot;. Hank, remembering a conversation with Walt regarding the initials from his earlier investigation and surmising that &quot;GB&quot; is Gale Boetticher, clearly sees that Walter is Heisenberg. (&quot;Gliding Over All&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank and Marie leave the Whites residence, with Hank secretly taking the book with him. At home, Hank decides to take some days off from work to investigate everything regarding the Blue Sky since its first appearence. Meanwhile, Walt is visited by Lydia at the car wash, she wants him back cooking because the meth quality is dropping with other cooks, but Walt refuses."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse is living unhappy with his $5 million and decides to toss the money through an impoverished neighborhood in Albuquerque. Walt realizes his book is gone and pays a visit to Hank, suspicious that his brother-in-law may have discovered something. When they meet, Hank reveals that he knows everything and throws several accusations at Walt after punching him, but Walt reveals that his cancer is back and even if he is prosecuted, he won't live long enough to see the inside of a jail cell. (&quot;Blood Money&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank reaches to Skyler, trying to convince her to give him evidence on Walt's criminal activities, but fails as she fakes a panic attack. Meanwhile, Walt pays off Huell and Kuby to bring him his pile of money inside a group of barrels and then drives the barrels into the desert, where he buries them in the exact same location where him and Jesse had their first cooksite. After returning home, Skyler convinces Walt that they may have a chance to defeat Hank."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse is arrested for throwing $5 million in cash through his car window after he crashed. Hank is informed about this and decides to interrogate Jesse, knowing that he is one of Walt's former partners in the drug business. Somewhere in Arizona, Lydia hires Todd's uncle, Jack, to murder Declan and his men as a plot to take over their meth operation. (&quot;Buried&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank tries to subordinate Jesse into giving him anything on Walt, but his attempt fails as Saul arrives just in time, demanding Hank to leave and later complaining to Jesse about his recent action. After successfully crushing Declan's empire, Jack, his lieutenant Kenny and Todd drive the meth lab into New Mexico to start their new operation."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt and Skyler start their plot to force Hank to back away from them, recording a confession video. They deliver the video to the Schraders in a restaurant. Hank and Marie watch the video, only to find out that Walt's confession is fake, throwing all the accusations of his meth empire on Hank. He also finds out that Walt's drug business paid for his medical bills when he was shot, Hank realizes that now he is done."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Meanwhile, Walt decides to convince Jesse to leave the state, saying Jesse deserves a new start. Jesse is enraged, he tells Walt that the only reason he needs him gone is to protect his own family, and if he refuses Walt's offer, he is going to end up dead just like Mike did. Walt embraces Jesse, and he accepts to leave. Saul makes the call to the extractor, meanwhile, Jesse tries to light up a weed cigarette. Saul explains to Jesse that the extractor doesn't give any second chances, so he will need to stay in line. To make sure that Jesse will behave correctly, Saul tells Huell to secretly steal Jesse's weed from his pocket."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse waits for the extractor by the road and notices that his weed is gone. Jesse connects this to Brock Cantillo's poisoning some months ago and realizes that it was all part of Walt's plan to turning Jesse against Gus -- Walt was the one who poisoned Brock. Jesse returns to Saul's office and attacks him, and after he drives to the White residence, where he kicks the door down and furiously starts pouring gasoline over the furniture. (&quot;Confessions&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt is informed by Saul of what hapenned, he takes his gun and drives home only to find the living room soaking in gasoline -- but there are no signs of Jesse. After cleaning it up, Walt tries to fool Skyler into thinking that he had an accident in a gas station with the gasoline pulp. The Whites decide to spend the night in a hotel until the gasoline smell clears from their house. Skyler reveals to Walt that she doesn't believe his &quot;pulp malfunction&quot; story, Walt tells her the truth and she says that the best option is to kill Jesse."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="A short flashback reveals that Jesse was about to burn down the White residence when Hank, who spent the last few hours keeping tracks on Jesse, walks in and convinces him to give evidence on Walt's criminal activities. Hank takes Jesse to his own house, where him and Steven Gomez record a video confession of everything that Walt has done. Gomez explains that they need solid proof on Walt, not only &quot;the words of a junkie.&quot; Walt tries to call Jesse, saying that they need to meet, Hank and Gomez realize that this is the opportunity they were waiting for."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank puts a wire on Jesse and sends him on his way to meet Walt in a public plazza, but Jesse is scared that Walt is going to kill him, he runs to a payphone and calls Walt, threatning to hit him &quot;where he really lives.&quot; A furious Hank picks up Jesse, but Jesse explains that there is another way to get Walt. Meanwhile, Walt calls Todd: &quot;I think I have another job for your uncle.&quot; (&quot;Rabid Dog&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Todd receives Walt's phone call right after completing his first cook in Lydia's new operation, but he failed with the product's signature blue color. On the phone, Walt tells him that he wants to put a hit on Jesse. Under a highway, Hank and Gomez listen to Jesse's plan to get Walt, they need to find the only solid proof left of Walt being a criminal mastermind: His millions in money."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank interrogates Huell and fools him into staying inside a safehouse for his own safety, he is able to collect information about a rented van that Walt used to take the money, him and Gomez decide to find the van and check if the van had a GPS tracker. Walt meets with Jack and the white supremacist gang, they agree to kill Jesse, as long as Walt helps them to find him. When Walt starts talking about the payment, Jack says that he wants only one thing from Walt -- he needs to return to the meth business and coach Todd into producing Blue Sky correctly. Walt is hesitant, but he ends up accepting the terms."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="To lure Jesse out, Walt pays a visit to his ex-girlfriend, Andrea, where he tricks her into calling Jesse to talk about Walt's visit. Two white supremacists wait outside the house for Jesse's arrival, but Andrea's phone call is intercepted by Hank. He then informs Gomez and Jesse that the rented van didn't had GPS tracker, Gomez is sure that Walt probably buried the money somwhere in the vast desert, Hank says that there is only one way to find out. Walt is at the car wash when Saul shows up, worried about Huell's disappearence, Walt assures him that Jesse isn't on a killing spree and he will be done by the end of the day."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="A few minutes later, Hank send Walt a fake picture of a money barrel partially buried in the desert, Jesse calls Walt right after, threatning to burn all of the money if Walt hangs up. Walt gets in his car and despairingly drives to the location of his money, but when he arrives, there is no one there. Jesse hangs up and Walt realizes that he was tracking the phone call -- Walt just fell into a trap. He spots a SUV coming in the distance, he hides behind a rock and calls Jack, saying that he is trapped by Jesse in the desert and if he dies, there will be no one left to teach Todd how to cook Blue Sky. Walt sends Jack the location of the burial site, and right after he spots Hank and Gomez with Jesse, Walt realizes that Jesse has ratted him out. Defeated, Walt orders Jack not to come and hangs up."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank spots Walt coming out from his hiding spot, Walt gives himself up and Hank finally arrests the drug kingpin that he's been investigating for the past 11 months. The sequence of Walt's arresting takes some long minutes to happen, enough time for the arrival of Jack, Todd and the white supremacists with their guns drawn, despite Walt's orders for them not to come. The neo-nazis drastically outnumber Hank and Gomez, Walt, who is locked inside Gomez' SUV, despairingly tries to scream at Jack not to shoot, Jesse hides behind Walt's car. After an intense mexican standoff, the shootout erupts. (&quot;To'hajiilee&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="The shootout comes to an abrupt end, Gomez lies dead on the floor and Hank is seriously injured, Jack prepares to finish him off before Walt protests. Walt explains to Jack that Hank is his brother-in-law and he needs him alive, but Jack is upset to find out that Walt has a relative working for the police. Hank starts threatening the white supremacists, Walt instantly begs Jack not to kill Hank, even offering the $80 million dollars buried underneath them, but Hank still refuses to colaborate. As Walt pleads Hank to cooperate, Hank tells him that Jack has made up his mind minutes ago, only Walt can't see it. Jack shoots Hank in the head, instantly killing him, Walt drops to the floor crying. Todd searches the area for Jesse, but he is nowhere to be found, meanwhile, the white supremacists steal all of Walt's money and bury the two DEA agents."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jack is convinced by Todd to leave Walt with one of the barrels as an apology for what just hapenned, Walt says that Jack still owes him a hit on Jesse, revealing that he is hiding under a car, the white supremacists drag Jesse out and Jack prepares to shoot him. Todd intervenes, saying that they need to interrogate Jesse first to find out what he revealed to the cops, both Jack and Walt agrees. Just before they take Jesse away, Walt tells Jesse that he could have saved Jane from dying, but didn't. The neo-nazis then depart the area, Walt starts driving his car, but one of the bullets from the shootout damaged the gas tank, prompting Walt to buy a man's truck."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Marie visits Skyler at the car wash to reveal that she received a call from Hank saying that Walt is arrested. Defeated, Skyler decides to tell Walter Jr. about his father's criminal actions. When driving home, Skyler and Jr. spot the unknown truck parked in front of their house, Walt is frantically throwing bags inside the truck, he orders both Skyler and Jr. to also pack up their things to leave immediately. Skyler asks how Walt got himself free if Hank had him arrested less then an hour ago, Walt says that he negotiated, but Skyler denies it, she thinks he killed Hank to get himself free. Walt screams that he tried to save Hank and rushes Jr. to the bedroom to pack up his things, when leaving, Skyler points a knife at Walter and tells him to leave, as Walt tries to approach his wife, she slashes the knife at him, cutting his hand. Husband and wife start wrestling for the knife, until Jr. separates them and calls the police, saying that his father pulled a knife on his mother. Walt thinks fast, he takes Holly White from the crib, gets in the truck and drives off as Skyler screams at him to give her daughter back."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="An Amber Alert is called for Holly as the police is with Skyler, Jr. and Marie. The telephone rings and it's Walt calling for Skyler. On the police orders, Skyler answers, when Walt questions if the police is with her, she denies. Knowing that she is lying, pretends he does not know that the police is listening and proceeds to tell her that he &quot;warned her not to cross him.&quot; He throws several threats at Skyler, and she realizes that he is giving her an alibi and plays along with it. When she questions him about Hank, he says that they are never going to see Hank again. Before hanging up, Walt says that he has some things left to do. Walt then leaves Holly in front of a fire station with the White residence address pinned to her. On the following morning, the extractor picks up Walt on a highway and they drive off to a start to new life for Walter. (&quot;Ozymandias&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="After the exposure of Walter to the media, Saul decides to also leave the state through the extractor's services. The white supremacists break into the Schraders residence to steal Jesse's video confession DVD, the neo-nazis are keeping Jesse hostage inside their compound, forcing him to cook Blue Sky for them. When Jesse tries to escape, Jack orders Todd to kill Jesse's ex-girlfriend, Andrea, forcing him to watch. Jack reminds him that there is still Brock remaining."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Skyler is questioned by the police, they want to arrest her for being Walt's accomplice, but they do not have enough evidence on her. One night, Skyler is sitting at home when four white supremacists break in, they threaten to kill her and her children if she ever attempts to tell the police anything about Lydia's conversation with Walter at the car wash. In the following day, Todd tries to explain to Lydia that Skyler was intimidated, but Lydia complains that she wanted Skyler dead, she wants to call off her partnership with the neo-nazis, but Todd convinces her to continue after revealing that with Jesse's &quot;help&quot;, they were able to bring the blue color back to their product."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="After few days of waiting inside a bunker, the extractor, a man called Ed, is finally able to take Walt out of the state. They arrive at a cabin in New Hampshire, Ed reveals that this is Walt's new home, and his new surname is Lambert. Ed also instructs Walt not to leave the property's gate, with Walt's face all over the news, anyone can put him in danger now, and if Walt is caught, Ed won't be coming back to bring him supplies for his own safety. That night, after Ed left, Walt stuffed his pockets with stashes of money and tried to leave the property, but wasn't able to bring himself to do so."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Many months have passed, Walt has a beard grown and his head is full of hair, he is also much thinner than before. Ed arrives to bring him some supplies, a new pair of glasses, some medication for his cancer and a bunch of Albuquerque's newspapers. Ed informs him that his house was abandoned and now became a macabre tourist attraction, Skyler and their children are living in a urban area, she is working as a taxi dispacher. After performing makeshift chemotherapy for Walt, Ed leaves and Walt is alone once again, his wedding ring doesn't fit in his finger anymore and he is foreced to loop a string through it and make a necklace. He then spots a box of Endure on the counter, he empties the box and stuff it with $100,000 from the money barrel. When the sun rises, Walt finally leaves the property, heading down the road."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt comes accross a tavern, he calls Walter Jr. at school after paying off a woman to pretend to be Marie. Walt tries to offer his son the money, saying that he will mail a package of $100,000 to his friend's Louis Corbett house, but the package is for Jr., his sister and his mother. Walt fails to explain his actions, Jr. is furious on the other line, he yells at his father to leave them alone and just die. After his son hangs up, Walt is saddened, he calls the DEA office in Albuquerque and asks to speak with the agent responsible for the Walter White case, revealing to be Walter himself and leaving the phone off the hook so the police can track him."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt sits at the bar and asks for a Dimple Pinch Scotch whiskey, as the bartender flips through the television channels, Walt spots something interesting: His former friends Elliott Schwartz and Gretchen Schwartz are being interviewed by Charlie Rose. They are talking about their recent donation to fund drug rehab clinics throughout the American Southwest. Rose asks if they made the donation to make amends for &quot;your association with Walter White,&quot; who helped start their very successful and profitable technology company, Gray Matter Technologies. Elliott throws several lies, saying that Walt never really contributed to anything important to the company. Walt was the one who came up with their research and is furious at hearing this, but something else catches his attention -- Rose comments that there are still many signs of Blue Sky being sold throughout the Southwest and even in Europe. Walt realizes that someone is still cooking his formula and he has a change of heart. A group of police officers arrive at the tavern looking for Walt, but he is nowhere to be found. (&quot;Granite State&quot;)"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="After escaping the tavern, Walt steals a car and begins his drive back to New Mexico. On the way, he stops by a gas station and pretends to be a journalist from the New York Times to get the Schwartzes' address. At night, Elliott and Gretchen arrive at home returning from their interview with Charlie Rose, they are caught by surprise when Walt is waiting for them inside the house. The couple is scared at first, but Walt says that he didn't come to cause them any harm and ask for their help to bring inside the $10 million dollars he has inside the trunk of his car. As they pile the money, Walt explains that he wants the Schwartzes to give the money to Walter Jr. on his 18th birthday despite what happens to Walt in the following day. Elliott is hesitant at first, saying that the police will get suspicious, but Walt comments that there's nothing suspicious about a rich couple donating some money to a boy that had his life ruined by his &quot;monstruous father.&quot;"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt shakes hand with both Elliott and Gretchen, he then signs to a window and two laser sights are pointed at the Schwartz couple, they are extremely scared by this. Walt says that he used $200,000 from the pile of money to pay off two hitmen that will keep tabs on his family's financial situation for the next year. If they don't get the money, the hitmen will eventually murder the Schwartzes for breaking their word. Elliott promises once again that he will give the money, the hitmen then turn off their laser sights and Walt leaves after telling Elliott and Gretchen that this is their chance to make things right. Back in his car, Walt picks up Badger and Skinny Pete by the road, they used laser pointers to help Walt threaten Elliott and Gretchen. After paying them off, they explain that all this time they thought it was Walt who was cooking Blue Sky, but since it's not him, there's only one person left on the list, someone who disappeared after the shootout in Tohajiilee -- Jesse."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="It is revealed that Jesse is still a slave cooking meth for the white supremacist gang, with his face completely scarred from various beatdowns he took over the months. Back to the flashfoward from the season's opening, Walt buys a M60 machine gun from Lawson and changes car, he then drives to his former house. The place is in ruins and fenced, inside, Walt spots many sprays insulting him, such as a giant &quot;Heisenberg&quot; painted in yellow on the wall of the living room. Walt goes to the bedroom and retrieves the ricin he hid there. As he is leaving the house, his former neighbor, Carol, spots him. Walt normally greets her and drives off, prompting her to drop her groceries. Lydia is at the café meeting with Todd, they are having a casual conversation when Walt suddenly approaches the two, he asks them for just two minutes of their time. Lydia is startled by this, but Walt says that he found a new way to cook Blue Sky without methylamine and he will teach Todd how to do it in exchange of a million of dollars. Todd is hesitant, but Lydia accepts and asks Walt to visit Jack at the neo-nazis compound at night. After Walt leaves, Lydia orders Todd to kill Walt when he shows up at the compound, having him around is not good for their operation. Lydia stirs a package of Stevia into her cup tea."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Somewhere in the desert, Walt builds a device with a garage door opener connected to a car battery. He then changes clothes and visits Skyler at her new apartment just as she is receiving a call from Marie about Walt being spotted in their former neighborhood. Marie also comments that the car Walt stole in New Hampshire was found abandoned downtown, she asks Skyler to be careful and hangs up. Skyler gives Walt five minutes, he assures her that after the events that will happen later that night, she will have nothing else to worry about, she will never be in danger again because of his actions. He also reveals that everything he did wasn't for the family, it was all for him, he felt good about it because he was good in doing it. Then, he gives Skyler the coordinates to Hank and Gomez' burial site, telling her to explain to the police that he broke in and threatened her. Walt's last wish to Skyler is to let him take a look at his daughter one last time, which she allows him to do so. Later, Walt waits in the distance as Walter Jr. arrives from school, he just watches his son coming out of the school bus and getting inside the apartment, not disturbing him."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="At night, Walt shows up with his car at the white supremacists compound, they let him in and he parks the car right in front of the main building. Kenny frisks Walt, his keys and wallet are taken from him. Inside the building, Walt is greeted by Jack and the others, Jack denies to be in the meth business currently. Walt notices everyone's strange behaviour, Todd comments that Walt shouldn't have come back and Kenny points a gun at Walt's head. Jack tells Kenny to kill Walt anywhere but in his living room, as the neo-nazis are taking Walt away, he calls Jack a liar, accusing them to be partners with Jesse. The neo-nazi leader is extremely insulted by the comment, he wants to show Walt how much of a partner Jesse really is, he orders his men to keep Walt there and tells Todd to go get Jesse in the meth lab."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="As they wait, Jack walks around the living room saying that he will kill Walt personally as soon as they are done with this, Walt is able to get the car keys back during the distraction, since they were left on the pool table. Todd walks in followed by Jesse, who is bound in handcuffs and anklecuffs, his hair is long and his beard is unkept. Walt takes a long look at Jesse's scarred face and realizes that he is actually a slave, feeling sorry for the conditions that his former partner is in, Walt feigns anger and tackles Jesse to the ground, Todd tries to separate the two, but Walt pushes the trunk-open button on the car remote control. Outside, the trunk of his car opens, exposing the mounted M60 machine gun. It automatically starts to open fire, oscillating on the garage door opener's motor, and rips through the vehicle and building. Every white supremacist standing in the room is instantly killed by the machine gun, Walt is hit by a stray bullet and Jack is seriously injured. The only two people that escaped the rain of bullets are Jesse and Todd. The machine gun eventually runs out of bullets, Todd crawls to the window to check what hapenned, but before he can take any action, Jesse attacks him by choking him with his handcuffs chains. Walt gets up as Jesse strangles Todd to death and starts searching his pockets for the keys, Walt picks up Jack's gun from the ground and approaches the dying neo-nazi leader. Jack tries to plead for his life, but Walt shoots him in the head, killing Jack in the same manner Jack killed Hank."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse sets himself free and gets up from the ground, but he is now facing Walt, who has a gun in his hand. The two men stare at each other, Walt throws the pistol to Jesse and asks Jesse to kill him. Jesse points the gun at Walt, but notices that he is bleeding from his side, Jesse drops the pistol to the floor and leaves. Todd's cellphone starts ringing, Walt approaches his corpse and picks up the phone -- it's an ill Lydia asking if they already killed Walt. He reveals that all the white supremacists are dead and she will be dead too in a few hours -- he poisoned the Stevia that she used earlier with ricin. Walt throws the phone to the ground after saying &quot;goodbye, Lydia.&quot; Jesse gets in Todd's car and drives off, laughing and crying hysterically after getting out of the compound where he was a slave for many months that passed. Back at the compound, Walt walks inside the meth lab and smiles after looking at the equipment, he then bleeds out from his wound and dies. The police find Walter's dead body lying in the middle of the lab in the final scene of the series. (&quot;Felina&quot;) "/>
+                	</Paragraph>
+                </RichTextBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

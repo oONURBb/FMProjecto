@@ -1,0 +1,192 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Microsoft.Internal.Pivot.Controls;assembly=System.Windows.Controls.Pivot" x:Class="BreakingBad.Views.Season3"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.7"/>
+            </Grid.Background>
+            <Image Grid.Column="1" Margin="10" Source="/Images/Season3.jpg" Grid.RowSpan="2"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="0*"/>
+                    <RowDefinition Height="232*"/>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap" FontSize="32" FontWeight="Bold" Foreground="White" TextAlignment="Center">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </TextBlock.Effect>
+                	<Run Text="Season "/>
+                	<Run Text="3"/>
+                </TextBlock>
+                <RichTextBox Margin="10,9,10,10" Grid.Row="3" FontSize="13.333" IsReadOnly="True" Foreground="White">
+                    <RichTextBox.Effect>
+                        <DropShadowEffect Color="#FF575757"/>
+                    </RichTextBox.Effect>
+                    <RichTextBox.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.8"/>
+                    </RichTextBox.Background>
+                	<Paragraph>
+                		<Run Text="Shortly after the Wayfarer Flight 515 disaster, two cartel killers known as The Cousins slip into New Mexico after killing an entire clandestine convoy to avenge the death of their cousin, Tuco Salamanca. Their target: &quot;Heisenberg.&quot;"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walter is forced to move to an apartment and comes clean about manufacturing meth to Skyler White, who promises not to divulge his criminal activities if he grants her a divorce and keeps his distance. Jesse Pinkman, meanwhile, emerges from rehab changed by Jane Margolis's death. &quot;I'm the bad guy,&quot; he tells Walt, who has quite a different self-image: &quot;I am not a criminal,&quot; Walt tells Gustavo Fring, declining the businessman's offer of $3 million to cook meth for three months (&quot;No Más&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Using help from Saul Goodman, Jesse manages to buy his house back from his parents, who paid several hundred dollars to reform the house. The Cousins meet with their uncle, Hector &quot;Tio&quot; Salamanca, to get information about Tuco's killer. At the same time, Saul hires Mike Ehrmantraut to bug the White Family residence to find out if Skyler told anyone about Walt's secret."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt defies Skyler and breaks into his own home to move back in. When the Cousins come calling, Mike, who just finished bugging Walt's house, spots their arrival and alerts Gus. The Cousins are called for a meeting and they let Walt (who is totally unaware of everything) live another day (&quot;Caballo Sin Nombre&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Meanwhile, Skyler calls the police to oust Walt but can't bring herself to incriminate him. Since she can't get Walt out of the house, she retaliates by sleeping with her boss, Ted Beneke. Gus calls a meeting with the Cousins and their cartel boss, Juan Bolsa, who agrees to postpone vengeance until Gus ties up his business with Walt (&quot;I.F.T.&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Upon learning that Jesse is cooking on his own, Gus purchases meth from Jesse and gives half the money due to Jesse to Walt to compel him back into the business. When Walt resurfaces to return the money, Gus unveils a state-of-the-art superlab he's constructed beneath an industrial laundromat."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank Schrader pursues the &quot;Heisenberg&quot; investigation despite being reassigned to El Paso, but a break in the case complicates matters. Short of cash on his way back from a cook, Jesse barters meth for gas. Hank finds a security camera tape that caught the RV at the gas station, he believes the RV is used as a mobile lab and starts a new investigation (&quot;Green Light&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt rebuffs Gus again, lamenting the loss of his family. &quot;A man provides,&quot; Gus lectures, &quot;even when he's not appreciated, or respected, or even loved.&quot; Convinced, Walt begins cooking alongside Gale Boetticher, a fastidious assistant installed by Gus, and then moves back out of the house. Meanwhile, Hank connects Jesse to the RV, and the RV to Jesse's deceased longtime friend, Christian &quot;Combo&quot; Ortega, a small time drug dealer who was killed while selling Blue Sky Meth (&quot;Mandala&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="When Hank calls Walt asking if Jesse had an RV, Walt arranges to have the vehicle demolished at a junkyard. Brandon &quot;Badger&quot; Mayhew tips off Jesse, who races to stop Walt, and, unbeknownst to him, Hank follows."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="While Walt and Jesse huddle inside the RV, Saul's secretary, impersonating a police officer, tells Hank that Marie Schrader's been in an accident. Hank leaves the junkyard, and by time he realizes he's been fooled, the RV is destroyed. Gus meets with the Cousins in the desert, revealing that Tuco's killer is actually the DEA agent Hank Schrader, he then gives the two hitmen permission to kill Hank: &quot;May his death satisfy you&quot; (&quot;Sunset&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank, infuriated by the fact that Jesse supposedly knows who his wife is, brutally attacks Jesse in retaliation and gets suspended from the DEA. In the hospital, Jesse plots legal action against Hank. To placate Jesse, Walt convinces Gus to fire Gale and hire Jesse instead."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Later, an anonymous caller warns Hank about an imminent attack. Hank spots the Cousins. In the ensuing clash, Hank is shot multiple times but manages to kill one cousin and gravely injure the other (&quot;One Minute&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="To Walt's horror, Gus makes an appearance at the hospital where Hank is being treated. While consoling Marie, Gus recalls meeting Hank at the DEA and seeing the donation jar for Walt's surgery. Gus then tells Walt privately, &quot;I investigate everyone with whom I do business.&quot; As Gus departs, the surviving Cousin flat-lines. Amid the commotion, Mike discards a syringe and slips away. In Mexico, Federales attack Bolsa's compound and gun down the Cartel boss (&quot;I See You&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt requests a meeting with Gus to postulate that he was the Cousins' real target and that Gus protected him as part of an effort to undermine the cartel. Walt leaves with a $15 million meth production deal and a guarantee of his family's safety."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt's negotiations coincide with Jesse's increasing dissatisfaction with Gus's operation. Yearning to return to his &quot;outlaw&quot; days, Jesse skims excess meth at the superlab. Badger and Skinny Pete attend Jesse's NA sessions, where they hype the &quot;blue stuff&quot; as a sales tactic."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Hank's injuries leave him paralyzed. After Marie learns that their insurance won't meet Hank's needs, she gets unexpected help from Skyler who offers to cover their bills using money that Skyler claims Walt won &quot;gambling illegally.&quot; After this, Skyler tells Walt to do what is right for the family, because she believes Walt is to blame for what hapenned to Hank (&quot;Kafkaesque&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="At the superlab, a housefly so obsesses Walt that he stops production. Weary from lack of sleep and sedatives that Jesse has slipped in his coffee, Walt describes the night Jane overdosed as the &quot;perfect moment&quot; for his own death. Walt also reveals his chance meeting with Jane's father (&quot;Fly&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Skyler stakes out a more active role in Walt's criminal life, citing the need to ensure that the money for Hank's treatment is &quot;unimpeachable.&quot; At her first meeting with Saul, the two squabble over money laundering schemes. Alone with Walt, she proposes they purchase the car wash where Walt used to work. She will handle the accounting. Jesse hypes the blue meth to a recovering addict named Andrea and discovers that two rival dealers directed her pre-teen brother to kill Jesse's friend, Combo (&quot;Abiquiú&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse wants to poison the dealers to avenge Combo, but him and Walt discover that the dealers actually work for Gus. Jesse wants to kill them anyway, despite Walt's warnings."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Mike visits Walt, he explains how Jesse is compromising the operation and warns Walt that if anything goes south, he is not going to hesitate in &quot;taking a full measure.&quot; Walt, fearing for Jesse's life, tips off Gus who forces Jesse to make peace on the condition the dealers no longer use children in their operation."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Later that evening, police discover the murdered body of Andrea's brother."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse drives to the rival dealers' corner. Just as Jesse and the dealers draw their guns, Walt runs over the dealers with his Aztek. One dies on impact and Walt shoots the other dead. Walt tells Jesse to run (&quot;Half Measures&quot;)."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt's intervention infuriates Gus, who reinstates Gale as Walt's assistant while he hunts down Jesse. Walt meets secretly with Jesse to explain his suspicion that Gus plans to kill them once Gale learns to cook the Blue Sky Meth. Walt reasons that he has leverage only if he alone can produce their special formula. They must kill Gale. &quot;I can't do it, Mr. White,&quot; says Jesse, who rathers turning to the police than killing at cold blood someone who is totally unaware of what's hapenning."/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Walt agrees to kill Gale himself, but before he can act, Mike and Victor escort him to the superlab for an execution. Appearing desperate, Walt offers to give Jesse up, but says he moves around, so he'll need to call him. &quot;They've got me at the laundry, and they're going to kill me,&quot; Walt tells Jesse over the phone. &quot;Do it now!&quot; Mike and Victor draw guns. &quot;You might want to hold off,&quot; Walt says defiantly. &quot;Your boss is going to need me.&quot;"/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run/>
+                	</Paragraph>
+                	<Paragraph>
+                		<Run Text="Jesse arrives at Gale's apartment and draws his gun. &quot;You don't have to do this,&quot; Gale pleads. Jesse, his eyes tearing, pulls the trigger, the screen fades to black (&quot;Full Measure&quot;). "/>
+                	</Paragraph>
+                </RichTextBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
